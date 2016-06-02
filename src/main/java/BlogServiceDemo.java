@@ -28,7 +28,7 @@ public class BlogServiceDemo {
     }
 
     @Data // Lombok's Data annotation used for defining getters and setters
-    // The object
+    // Object representing post data that will be used for validation
     static class NewPostPayload {
         private String title;
         private List categories = new LinkedList<>();
